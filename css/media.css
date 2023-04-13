@@ -1,0 +1,176 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .product__img, .product__desc {
+        max-width: 450px;
+    }
+
+    .product__text {
+        max-width: 250px;
+    }
+
+    .product__line {
+        width: 45px;
+    }
+
+    .iphone__card {
+        margin-right: 15px;
+        margin-left: 15px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .iphone__btn {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .footer__visa {
+        margin-right: 19px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .header__title {
+        font-size: 80px;
+    }
+
+    .product__img, .product__desc {
+        max-width: 300px;
+    }
+
+    .product__details_media {
+        flex-direction: column;
+    }
+
+    .product__text {
+       max-width: 100%;
+       order: 1;
+       text-align: center;
+       margin-top: 15px;
+    }
+
+    .product__line {
+        display: none;
+    }
+
+    .iphone {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 35px;
+    }
+
+    .iphone__card {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .header__title {
+        font-size: 60px;
+    }
+    .product__details {
+        flex-direction: column;
+    }
+
+    .product__img {
+        max-height: 250px;
+    }
+    
+    .product__desc{
+        order: 1;
+        max-width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .iphone {
+        justify-content: center;
+    }
+
+    .footer__visa {
+        margin-right: 5px;
+        max-width: 60px;
+    }
+
+    .footer__master {
+        max-width: 60px;
+    }
+
+}
+
+@media (max-width: 540px) {
+    .nav__content {
+        flex-direction: column;
+    }
+    
+    .icons {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .nav__logo {
+        margin: 10px 0;
+    }
+
+    .nav__links {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer__content {
+        flex-wrap: wrap;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        justify-content: center;
+    }
+
+    .footer__pay {
+        margin-top: 10px;
+    }
+
+    .header__content {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__title {
+        font-size: 50px;
+    }
+
+    .header__link, .product__desc, .product__text, .menu__link, .icons {
+        font-size: 18px;
+    }
+
+   .footer__content {
+    flex-direction: column;
+    padding: 20px;
+   }
+
+   .product__details {
+    margin-bottom: 24px;
+   }
+   
+    .iphone {
+        margin-bottom: 15px;
+    }
+
+    .footer__logo {
+        margin-bottom: 10px;
+    }
+}
